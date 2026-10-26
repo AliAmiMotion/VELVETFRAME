@@ -1,0 +1,46 @@
+body {
+  font-family: "Bodoni Moda", Didot, "Times New Roman", serif;
+}
+
+.hero h1,
+.collection h2 {
+  font-family: "Bodoni Moda", Didot, serif;
+  font-weight: 700;
+  letter-spacing: -0.055em;
+}
+
+.manifesto p {
+  font-family: "Bodoni Moda", Didot, serif;
+  font-weight: 300;
+  letter-spacing: -0.045em;
+}
+
+.manifesto .outline {
+  font-weight: 700;
+}
+
+.product h3 {
+  font-family: "Bodoni Moda", Didot, serif;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+.hero-copy {
+  font-family: "Bodoni Moda", Didot, serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.mono,
+.bag,
+.product button {
+  font-family: "Bodoni Moda", Didot, serif;
+  font-weight: 600;
+  letter-spacing: .12em;
+}
+
+.section-tag,
+.hero-index,
+.hero-foot {
+  font-weight: 400;
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Velvet Frame — Eyewear for another dimension</title>
+  <link rel="stylesheet" href="intro.css" />
+</head>
+<body>
+  <div class="chrome-cursor" aria-hidden="true">
+    <svg viewBox="0 0 64 82" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#ffffff"/>
+          <stop offset=".24" stop-color="#b8c5d0"/>
+          <stop offset=".46" stop-color="#ffffff"/>
+          <stop offset=".68" stop-color="#61505c"/>
+          <stop offset=".83" stop-color="#f5d7e9"/>
+          <stop offset="1" stop-color="#747b84"/>
+        </linearGradient>
+        <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+          <stop stop-color="#fff"/>
+          <stop offset=".5" stop-color="#4b3542"/>
+          <stop offset="1" stop-color="#fff"/>
+        </linearGradient>
+        <filter id="shadow" x="-40%" y="-30%" width="190%" height="190%">
+          <feDropShadow dx="4" dy="6" stdDeviation="3" flood-color="#3a132d" flood-opacity=".32"/>
+        </filter>
+      </defs>
+      <path filter="url(#shadow)" d="M3 3 58 46 34 49 48 72 34 80 21 56 7 74Z" fill="url(#chrome)" stroke="url(#edge)" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M7 8 50 43 30 45 43 70 36 74 22 49 10 66Z" fill="none" stroke="#fff" stroke-opacity=".72" stroke-width="1.5" stroke-linejoin="round"/>
+    </svg>
+  </div>
+  <header class="site-nav" aria-label="Main navigation">
+    <a class="nav-logo" href="#top" aria-label="Velvet Frame home">
+      <img src="outputs/velvet-frame-nav-logo.webp" alt="Velvet Frame" />
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about-title">About</a>
+      <a href="collection.html">Shop</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="nav-icon" type="button" aria-label="Search eyewear">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="10.7" cy="10.7" r="6.7"></circle>
+          <path d="m15.7 15.7 4.3 4.3"></path>
+        </svg>
+      </button>
+      <a class="nav-icon nav-bag" href="#bag" aria-label="Shopping bag, 0 items">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 8.5h14l-1 12H6l-1-12Z"></path>
+          <path d="M9 9V6.5a3 3 0 0 1 6 0V9"></path>
+        </svg>
+        <span>0</span>
+      </a>
+    </div>
+  </header>
+  <section class="logo-intro" id="top" aria-label="Velvet Frame">
+    <div class="logo-lockup">
+      <img class="silver-wordmark" src="outputs/velvet-frame-silver-main.png" alt="Velvet Frame" />
+      <img class="logo-sparkle logo-sparkle-one" src="outputs/velvet-frame-sparkle-1.png" alt="" aria-hidden="true" />
+      <img class="logo-sparkle logo-sparkle-two" src="outputs/velvet-frame-sparkle-2.png" alt="" aria-hidden="true" />
+    </div>
+    <button class="scroll-cue" type="button" aria-label="Scroll to About">
+      <svg viewBox="0 0 32 20" aria-hidden="true"><path d="m3 3 13 13L29 3"></path></svg>
+    </button>
+  </section>
+  <section class="about-store" aria-labelledby="about-title">
+    <div class="about-copy">
+      <img class="about-moon" src="outputs/about-moon.jpg" alt="Chrome crescent moon" />
+      <div class="about-text">
+        <p class="about-kicker">VELVET FRAME</p>
+        <h1 id="about-title">Eyewear for your other self.</h1>
+        <p class="about-description">
+          Velvet Frame is an edit of bold, playful eyewear made for people who treat getting dressed like world-building. Futuristic silhouettes, nostalgic glamour and frames that never disappear into the background.
+        </p>
+        <a class="about-link" href="collection.html">Enter the collection <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <figure class="about-portrait">
+      <img src="outputs/about-trinket-girl-v3.png" alt="Woman wearing silver charm glasses and holding a pink telephone" />
+    </figure>
+  </section>
+  <script src="cursor.js"></script>
+  <script src="locale.js"></script>
+</body>
+</html>
